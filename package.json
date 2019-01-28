@@ -1,6 +1,6 @@
 {
   "name": "nextjs-wp",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "Makes it easier to connect WordPress to NextJS. ",
   "main": "index.js",
   "scripts": {
