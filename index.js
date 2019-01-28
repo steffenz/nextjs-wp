@@ -27,5 +27,9 @@ module.exports = {
           );
 
         return nextPages;
+    },
+
+    combineRoutes: function(items){
+        return Object.assign({}, ...items);
     }
 }
