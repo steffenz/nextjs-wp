@@ -12,12 +12,20 @@ module.exports = {
                 const prePath = (beforeSlug.length > 0) ? `${beforeSlug}/` : '';
                 const postPath = (afterSlug.length > 0) ? `/${afterSlug}` : '';
                 let frontendUrl = `${prePath}${post.slug}${postPath}`;
+                
+                let query = {};
+
+                queryParameters.forEach(item => {
+                    let keyName = item[0];
+                    let value = item[1].split('.').reduce((o,i)=>o[i], post);
+                    query[keyName] = value;
+                });
 
                 
                 let route =  Object.assign({}, pages, {
                     [frontendUrl]: {
                       page: `/${nextJsPageName}`,
-                      query: { }
+                      query
                     }
                   })
 
