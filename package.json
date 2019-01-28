@@ -1,0 +1,25 @@
+{
+  "name": "nextjs-wp",
+  "version": "1.0.0",
+  "description": "Makes it easier to connect WordPress to NextJS. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steffenz/nextjs-wp.git"
+  },
+  "keywords": [
+    "react",
+    "nextjs",
+    "wordpress",
+    "headless"
+  ],
+  "author": "Steffen Martinsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steffenz/nextjs-wp/issues"
+  },
+  "homepage": "https://github.com/steffenz/nextjs-wp#readme"
+}
