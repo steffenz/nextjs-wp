@@ -1,6 +1,6 @@
 {
   "name": "nextjs-wp",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Makes it easier to connect WordPress to NextJS. ",
   "main": "index.js",
   "scripts": {
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/steffenz/nextjs-wp/issues"
   },
-  "homepage": "https://github.com/steffenz/nextjs-wp#readme"
+  "homepage": "https://github.com/steffenz/nextjs-wp#readme",
+  "dependencies": {
+    "node-fetch": "^2.3.0"
+  }
 }
