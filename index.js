@@ -1,4 +1,4 @@
-const fetch = require('node-fetch');
+const fetch = require('isomorphic-unfetch');
 
 module.exports = {
     getPostUrls: async function(apiEndpointUrl, beforeSlug, afterSlug, nextJsPageName, queryParameters){
