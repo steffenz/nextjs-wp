@@ -2,6 +2,11 @@
 The purpose for this package is simply to create a tiny swiss army knife for projects using WordPress together with NextJS.
 
 ## Usage
+
+Install with NPM:
+
+```npm install --save nextjs-wp```
+
 To generate routes from WordPress in your NextJS application, start with creating a ``next.config.js`` file at the root of your project.
 
 Updated: Added support for parameters. These must be passed as an array (you can use dot syntax to get nested fields, from ACF for example. Check the code below for more information).
